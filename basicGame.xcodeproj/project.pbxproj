@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7B1138CB18F3428200973BA6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B1138CA18F3428200973BA6 /* main.cpp */; };
 		7B1138CD18F3428200973BA6 /* basicGame.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B1138CC18F3428200973BA6 /* basicGame.1 */; };
+		7B1138D418F342E000973BA6 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1138D318F342E000973BA6 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		7B1138C718F3428200973BA6 /* basicGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = basicGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1138CA18F3428200973BA6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7B1138CC18F3428200973BA6 /* basicGame.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = basicGame.1; sourceTree = "<group>"; };
+		7B1138D318F342E000973BA6 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1138D418F342E000973BA6 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 		7B1138BE18F3428200973BA6 = {
 			isa = PBXGroup;
 			children = (
+				7B1138D318F342E000973BA6 /* OpenGL.framework */,
 				7B1138C918F3428200973BA6 /* basicGame */,
 				7B1138C818F3428200973BA6 /* Products */,
 			);
@@ -198,6 +202,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.8;
 			};
 			name = Debug;
 		};
@@ -205,6 +210,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.8;
 			};
 			name = Release;
 		};
